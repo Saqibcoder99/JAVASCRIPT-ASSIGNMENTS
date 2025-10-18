@@ -13,8 +13,8 @@
     alert("Happy Coading!")
   //ANSWER 5 
     console.log("Hello... I can run JS through my web browser console");
- //ANSWER 6 , 7
-  DONE
+ /*ANSWER 6 , 7
+  DONE*/
 
                                               /*CHAPTER 2 */  
 
@@ -37,29 +37,29 @@ alert(certified)
  alert(a)
   //ANSWER 6 
   let email="javaidsaqib123@gmail.com";
-  alert( "My name is ",email)
+  alert(email)
     //ANSWER 7
    let Book="A smarter way to learn Javascript";
-   alert(Book) 
+   alert(Book); 
    //ANSWER 8 
-
-    //ANSWER 9 
+  document.writeln(`Yeah I can write a HTML content through a JavaScript`)
+    
 
 
 
 
                                         /*CHAPTER 3 */
         /*ANSWER 1 */
-     let age="19 years old";                                    
-     alert(age)
+     let age_saqib="19 years old";                                    
+     alert(age_saqib)
         /*ANSWER 2 */
      let visit="You have visited this site 25 times";
      alert(visit)  
          /*ANSWER 3 */
-   let birthYear="My birth year is 2000";
+   let birthYear="<br/>My birth year is 2000";
    document.writeln(birthYear)
          /*ANSWER 4*/
-   let store="Ayesha awan stored 10-T shirt(s) on Saqib store";
+   let store="<br/>Ayesha awan stored 10-T shirt(s) on Saqib store";
    document.writeln(store)
 
 
