@@ -108,3 +108,230 @@
 //  console.log(findPrices);
  
 // Answer : 19
+
+// let stuResult = [
+//     {
+//         name: "Saqib",
+//         result: "Pass"
+//     },
+//     {
+//         name: "Aqib",
+//         result: "Fail"
+//     },
+//     {
+//         name: "Hasan",
+//         result: "Pass"
+//     },
+//     {
+//         name: "Abdullah",
+//         result: "Fail"
+//     },
+//     {
+//         name: "Haseeb",
+//         result: "Pass"
+//     },
+//     {
+//         name: "Nazim",
+//         result: "Fail"
+//     },
+//     {
+//         name: "Babar",
+//         result: "Pass"
+//     }
+// ]
+// stuResult.filter((item)=>{
+// if(item.result.toLowerCase()==="pass"){
+//     console.log(item);
+
+// }    
+// })
+
+// Answer :20
+
+// let nums=[-5,-4,5,4,0,-2,2]
+// let negNumbers=nums.filter((num)=>num<0
+// )
+// console.log(negNumbers);
+
+// Answer :21
+
+//  let userName=["saqib","aqib","hasan","abdullah"];
+//  userName.forEach((name)=>console.log(name)
+//  )
+
+
+// Answer :22
+
+// let fruitArray=["apple","orange","banana","peach"];
+// fruitArray.forEach((fruits,index)=>console.log(index,fruits)
+// )
+
+// Answer :23
+
+//  let userName=["saqib","aqib","hasan","abdullah"];
+//   userName.forEach((name)=>console.log("welcome",name))
+
+
+// Answer :24
+
+// let nums=[5,4,5,4,0,2,2]
+// let total=0;
+// nums.forEach((num)=>total+=num)
+// console.log(total);
+
+// Answer :25
+
+//   let userName=["saqib","aqib","hasan","abdullah"];
+//   userName.forEach((name)=>console.log(name.toUpperCase()))
+
+// Answer :26
+
+// let number=[10,20,30,40];
+// let greaterNumber=number.find((num)=>num>25
+// )
+// console.log(greaterNumber);
+
+// Answer :27
+
+//   let userName=["saqib","ali","hasan","abdullah"];
+//   userName.find((name)=>{
+//     if(name==="ali"){ console.log(name)}
+//   }
+//   )
+
+// Answer :28
+
+
+// Answer :29
+
+//  let nums=[5,4,5,6,0,2,2];
+//  let firstEven=nums.find((even)=>even%2==0);
+//  console.log(firstEven);
+
+// Answer :30
+
+let stuResult = [
+    {
+        name: "Saqib",
+        result: "Pass"
+    },
+    {
+        name: "Aqib",
+        result: "Fail"
+    },
+    {
+        name: "Hasan",
+        result: "Pass"
+    },
+    {
+        name: "Abdullah",
+        result: "Fail"
+    },
+    {
+        name: "Haseeb",
+        result: "Pass"
+    },
+    {
+        name: "Nazim",
+        result: "Fail"
+    },
+    {
+        name: "Babar",
+        result: "Pass"
+    }
+]
+stuResult.find((fail) => {
+    if (fail.result.toLowerCase() === "fail") {
+        console.log(fail);
+    }
+})
+
+
+// Answer :31
+
+// let reduceNumbers=[1,2,3,4];
+// const hello=reduceNumbers.reduce((accumulator, item) => {
+// return accumulator + item;
+// }, 0);
+// console.log(hello);
+
+// Answer :32
+// let pricesArray=[500,300,100,100];
+// let result=pricesArray.reduce((accumlator,price)=>{
+//     return accumlator+price;
+// })
+// console.log(result);
+
+// Answer :33
+
+
+// Answer :34
+
+// let words=["ali","going","to","school"]
+// let sentence=words.reduce((previousValue,currentValue,index)=>{
+//    return previousValue+(index>0?" ":"")+currentValue
+// },"")
+// console.log(sentence);
+
+// Answer :35
+
+// let product = [
+//     {
+//         name: "bag",
+//         price: 1500
+//     },
+//     {
+//         name: "bottle",
+//         price: 500
+//     },
+//     {
+//         name: "books",
+//         price: 5000
+//     },
+//     {
+//         name: "fee",
+//         price: 2000
+//     }
+// ]
+// let productPrice=product.reduce((accumlator,item)=>{
+//   return  accumlator+item.price;
+    
+// },0)
+// console.log(productPrice);
+
+
+// Answer: 41
+
+// object ek dynamic data structure hota ha jis mai hum data ko apne andar as a key value pair  store krta ha jese hum property name bhi kehty ha
+
+// Answer: 42
+
+let std1={
+name:"Saqib",
+age:18
+}
+// console.log(std1);
+
+// Answer: 43
+
+// console.log(std1.name);
+// console.log(std1["name"]);
+
+// Answer: 44
+
+// std1.id="1";
+// console.log(std1);
+
+// Answer: 45
+
+// delete std1.age;
+// console.log(std1);
+
+// Answer: 46
+
+// let car={
+//     brand="landcruiser",
+//     model=2008
+// }
+
+// Answer: 47
